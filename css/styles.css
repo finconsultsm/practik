@@ -69,6 +69,10 @@ p {
   color: #4d5ae5;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* ------ Header mob-------- */
 
 .header {
@@ -509,9 +513,14 @@ p {
   width: 288px;
   height: 40px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  opacity: 0.3;
-  background: transparent;
-  margin-bottom: 16px;
+  opacity: 0.5;
+  background-color: transparent;
+  color: #fff;
+  margin-bottom: 24px;
+}
+
+.subscripe-input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .footer-btn {

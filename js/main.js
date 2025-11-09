@@ -13,6 +13,9 @@ function closeMenu() {
 }
 closeBtn.addEventListener('click', closeMenu);
 
+document
+    .querySelectorAll('.header-mob-nav-link')
+    .forEach(link => link.addEventListener('click', closeMenu));
 
 const openModalBtn = document.querySelector('#hero-btn');
 const closeModalBtn = document.querySelector('.modal-close');
